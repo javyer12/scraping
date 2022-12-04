@@ -1,0 +1,2 @@
+links = //h2[@class="headline"]/a/@href
+$x('//div[@class="lead"]/p/text()').map(x=>x.wholeText())
